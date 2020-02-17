@@ -4,7 +4,6 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin('~/.vim/plugged')
-Plug 'gmarik/Vundle.vim'
 Plug 'nvie/vim-flake8'
 Plug 'jpalardy/vim-slime'
 Plug 'jalvesaq/Nvim-R'
