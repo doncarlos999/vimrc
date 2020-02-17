@@ -18,7 +18,7 @@ filetype plugin indent on
 syntax enable
 set background=dark
 colorscheme solarized
-set t_Co=16
+"set t_Co=16
 " show line numbers
 set nu
 set autoindent
@@ -81,3 +81,5 @@ let g:slime_python_ipython = 1
 set foldmethod=marker
 " relative line numbers
 set relativenumber
+"unmap CTRL-W in insert mode to stop me deleting words 
+imap <C-w> <Nop>
