@@ -59,7 +59,8 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 
 "set R path for Nvim-R
 "system R path
-let R_path = '/usr/bin/'
+"let R_path = '/usr/bin/'
+let R_path = '~/miniconda3/envs/sc-tutorial2/bin/'
 "let R_path = '~/miniconda3/envs/monocle3/bin/'
 let R_assign_map = '<C-->'
 " <C-\><C-n> to enter insert mode in R terminal
